@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% load staticfiles %}
+
+  <div class="jumbotron">
+      {% block body_block %}
+      <h1>Wecolme to Index!</h1>
+      <h2>This in an example of template inheritance! - Main Page</h2>
+      <!-- <h3>{{ text|cut:'o' }}</h3>
+      <h4>{{ number|add:'98' }}</h4> -->
+      {% endblock %}
+  </div>
